@@ -1,0 +1,10 @@
+[user]
+	name = Hannah Atkinson
+	email = hannahatkinson@gmail.com
+[core]
+	editor = vim
+[alias]
+	l = log -40 --decorate --graph --all --pretty=oneline --abbrev-commit
+        l-with-author = log --graph --all --abbrev-commit --pretty=format:'%C(red)%d%x20%C(yellow)%h%x20%C(green)%an%x20%Creset%s'
+[color]
+	ui = true

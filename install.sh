@@ -15,4 +15,4 @@ vim +BundleInstall +qall
 
 # Git
 echo "Creating symlink for gitconfig"
-ln -s ~/dotfiles/git/.gitconfig ~/.gitconfig
+ln -s ~/dotfiles/git/_gitconfig ~/.gitconfig
