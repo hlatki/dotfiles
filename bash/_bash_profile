@@ -36,3 +36,5 @@ fi
 #Show the git branch! (http://code-worrier.com/blog/git-branch-in-bash-prompt/)
 source ~/dotfiles/bash/.git-prompt.sh
 PS1="$FCYN\u$RS@$FGRN\h $FBLE\w$FMAG\$(__git_ps1) $FYEL$ $RS"
+
+export PATH=$PATH:~/bin
