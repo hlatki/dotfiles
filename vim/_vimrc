@@ -34,6 +34,10 @@ set showmatch
 
 set cursorline
 
+"Spellcheck
+set spell spelllang=en_us
+
+
 "Tabbed completion
 function! Tab_Complete_Wrapper(direction)
    let col = col('.') - 1
