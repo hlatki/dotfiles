@@ -15,6 +15,7 @@ Bundle 'Lokaltog/vim-powerline'
 Bundle 'scrooloose/nerdtree'
 Bundle 'mhinz/vim-startify'
 Bundle 'tpope/vim-markdown'
-
+Bundle 'tpope/vim-classpath'
+Bundle 'tpope/vim-fireplace'
 
 filetype plugin indent on     " required!
