@@ -38,3 +38,10 @@ source ~/dotfiles/bash/.git-prompt.sh
 PS1="$FCYN\u$RS@$FGRN\h $FBLE\w$FMAG\$(__git_ps1) $FYEL$ $RS"
 
 export PATH=$PATH:~/bin
+
+# Aliases 
+alias cl='clear'
+alias ..='cd ..'
+alias ...='cd ../..'
+alias ll='ls -la'
+alias histgrep='history | grep'
