@@ -17,5 +17,6 @@ Bundle 'mhinz/vim-startify'
 Bundle 'tpope/vim-markdown'
 Bundle 'tpope/vim-classpath'
 Bundle 'tpope/vim-fireplace'
+Bundle 'kien/ctrlp.vim'
 
 filetype plugin indent on     " required!
