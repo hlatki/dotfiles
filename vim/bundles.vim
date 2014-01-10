@@ -19,4 +19,9 @@ Bundle 'tpope/vim-classpath'
 Bundle 'tpope/vim-fireplace'
 Bundle 'kien/ctrlp.vim'
 
+Bundle 'tpope/vim-sexp-mappings-for-regular-people'
+Bundle 'guns/vim-sexp'
+Bundle 'tpope/vim-repeat'
+Bundle 'tpope/vim-surround'
+
 filetype plugin indent on     " required!
