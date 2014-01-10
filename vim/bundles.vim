@@ -24,4 +24,5 @@ Bundle 'guns/vim-sexp'
 Bundle 'tpope/vim-repeat'
 Bundle 'tpope/vim-surround'
 
+Bundle 'bronson/vim-trailing-whitespace'
 filetype plugin indent on     " required!
