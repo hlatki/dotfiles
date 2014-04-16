@@ -37,6 +37,8 @@ set cursorline
 "Spellcheck
 set spell spelllang=en_us
 
+" Local Leader
+let maplocalleader = ";"
 
 "Tabbed completion
 function! Tab_Complete_Wrapper(direction)
