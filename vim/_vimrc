@@ -61,3 +61,6 @@ inoremap <s-tab> <c-r>=Tab_Complete_Wrapper("backward")<cr>
 au BufRead,BufNewFile *.json set filetype=javascript
 au BufNewFile,BufReadPost *.coffee setl shiftwidth=2 tabstop=2 softtabstop=2 expandtab
 au BufNewFile,BufReadPost *.clj setl shiftwidth=2 tabstop=2 expandtab
+
+" word wrap text files
+au BufRead,BufNewFile *.txt,*.tex,*.md,*.markdown set wrap linebreak nolist textwidth=0 wrapmargin=0
